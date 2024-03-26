@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-//mysql connection
+//mysql connection, ใช้ฐานข้อมูลบน phpMyAdmin ครับ
 const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
